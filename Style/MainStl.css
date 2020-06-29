@@ -1,0 +1,431 @@
+﻿@font-face {
+    font-family: "Segoe UI";
+    src: url(../fonts/segoeui.ttf) format("truetype");
+}
+
+html, body {
+    font-family: "Segoe Ui", Arial, Tahoma;
+    margin: 0;
+    padding: 0;
+    position:relative;
+    /*background:url(../Images/IMG_0893.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;*/
+    color: #333333;
+}
+
+::selection {
+    background: #000;
+    color: #009fe3;
+}
+
+.main {
+    width: 1080px;
+    margin: 0 auto;
+}
+
+a {
+    color: #ff7c6c;
+    text-decoration: none;
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -ms-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+}
+
+#nav a {
+    color: #fff;
+}
+
+h1 {
+    font-size: 50px;
+    font-weight:normal;
+    margin: 0;
+    padding: 0;
+}
+h2 {
+    font-size: 16px;
+    line-height: 25px;
+    color: #898e96;
+    margin: 0 0 70px 0;
+    padding: 0;
+    font-weight: normal;
+}
+
+p {
+    font-size: 14px;
+    line-height: 25px;
+    color: #898e96;
+    margin: 0;
+    padding: 0;
+}
+
+.clear {
+    clear: both;
+}
+
+/*Top Header*/
+#topHeader {
+    position: fixed;
+    z-index: 9999;
+    height: 80px;
+    width: 100%;
+    background: rgba(42,52,62, 0.9);
+    border-bottom: 1px solid rgba(255,255,255, 0.2);
+    box-shadow: 0px 0px 3px 1px rgba(0, 0, 0, 0.1);
+    color: #fff;
+}
+
+#topBlock {
+    background: #fff;
+    height: 80px;
+}
+
+#logoWrap {
+    float:left;
+}
+
+#logo {
+    background: url("../Images/TopSTYLE-Logo1.png") no-repeat;
+    width: 88px;
+    height: 75px;
+    margin: 0 0 20px 0;
+    float: left;
+}
+
+#logoDiv {
+    border-left: #535970 solid 1px;
+    width: 1px;
+    height: 35px;
+    float: left;
+    margin: 25px 10px 0 8px;
+}
+
+#logoTypeWrap {
+    float: left;
+}
+
+#logoType {
+    margin: 30px 0 5px 0;
+    float:left;
+}
+
+    /*Navigation*/
+    .nav_btn {
+        float: right;
+        margin: 0 0px 0 0;
+        /*background: #40484f;*/
+        border-radius: 2px;
+        width: 70px;
+        height: 50px;
+        color: white;
+        padding: 30px 6px 6px 6px;
+        font-size: 14px;
+        text-align: center;
+    }
+
+        .nav_btn:hover {
+            position: relative;
+            background: #868d92;
+            z-index: 1000;
+        }
+
+    #nav {
+        float: right;
+        margin: 0px 0 0 0;
+    }
+
+    .nav_btn {
+        float: right;
+        margin: 0 0px 0 0;
+        /*background: #40484f;*/
+        border-radius: 2px;
+        width: 70px;
+        height: 50px;
+        color: white;
+        padding: 30px 6px 6px 6px;
+        font-size: 14px;
+        text-align: center;
+    }
+
+        .nav_btn:hover {
+            position: relative;
+            background: #868d92;
+            z-index: 1000;
+        }
+
+    #nav {
+        float: right;
+        margin: 0px 0 0 0;
+    }
+
+
+/*Header*/
+#header {
+    height: 450px;
+    background: #363F48;
+    /*background-position: center;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-attachment: fixed;*/
+}
+
+#logo1 {
+    background: url("../Images/TopSTYLE-LogoCar.png") no-repeat;
+    width: 333px;
+    height: 279px;
+    margin: 0 0 20px 0;
+    float: left;
+}
+#logoType1 {
+    margin: 68px 0 5px 0;
+    float: right;
+    color: white;
+    font-size: 58px;
+}
+
+/*Our Method*/
+#ourMethod {
+    text-align:center;
+    padding: 80px 0;
+}
+
+#ourMethodPicWrap {
+    margin: 0 auto 70px auto;
+
+}
+.ourMethodPic {
+    width: 33%;
+    float: right;
+}
+
+
+/*Portfolio*/
+#portfolio {
+    text-align:center;
+    background: #f9f9f9;
+    padding: 80px 0;
+}
+
+.projImg {
+    margin: 0 0 70px 110px;
+    float: right;
+}
+
+/*Testamonials*/
+#testam {
+    text-align:center;
+    padding: 80px 0;
+}
+
+.review {
+    margin: 0 0 70px 0;
+}
+
+    .review:last-child {
+        margin: 0;
+    }
+
+.review q {
+    display:block;
+    padding: 25px 14px 24px 24px;
+    background: #f6f3f3;
+    font-size: 14px;
+    min-height: 60px;
+    line-height: 23px;
+    max-width: 940px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.review .nameReview {
+    margin: 5px 70px 0 0;
+    text-align:right;
+    font-size: 15px;
+}
+
+.review .triangle {
+    background: url(../Images/Triangle.png) no-repeat;
+    width: 20px;
+    height: 20px;
+    margin: 0 105px 0 0;
+    position:absolute;
+}
+
+
+
+/* Add Testam */
+
+#testam form {
+    width:600px;
+    margin: 0 auto;
+    text-align:right;
+}
+
+#testam form input{
+	height:25px;
+	resize: none;
+}
+
+/* SET A HEIGHT TO THE TEXTAREA*/
+
+#testam form textarea{
+	min-height:120px;
+	padding-top: 8px;
+}
+
+#testam form #btnSubmit{
+	color:#FFF;
+	height:40px;
+	width: 150px;
+	border-radius: 2px;
+	letter-spacing:1px;
+	float: left;
+	display: block;
+	border: none;
+	cursor: pointer;
+	font-size: 14px;
+    font-family: 'Segoe UI', Tahoma;
+	color:#FFF;
+	background-color: #ff7c6c;
+	-webkit-transition: all 0.2s ease-in-out;
+	-moz-transition: all 0.2s ease-in-out;
+	-ms-transition: all 0.2s ease-in-out;
+	-o-transition: all 0.2s ease-in-out;
+	transition: all 0.2s ease-in-out;
+}
+
+/* BUTTON SENDER HOVER */
+
+#testam form #btnSubmit:hover{
+	background:#ff9385 ;
+	cursor:pointer;
+}
+
+/*The Team*/
+#theTeam {
+    text-align:center;
+    padding: 80px 0;
+    background: #f9f9f9;
+}
+
+.man {
+    float:right;
+    width: 150px;
+    background: #fff;
+    padding: 10px;
+    margin: 0 0 0 50px;
+}
+
+#manWrap .man:last-child {
+    margin: 0;
+}
+
+#manWrap {
+    margin: 0 auto;
+    clear:both;
+    width:610px
+}
+
+/*Contact Us*/
+#contact {
+    text-align:center;
+    padding: 80px 0;
+}
+
+form label {
+    float:right;
+    padding-bottom: 5px;
+}
+		
+form label span {
+    color:#D1D1D1;
+}
+
+
+form input,
+form textarea{
+	font-family: 'Segoe UI', Tahoma;
+	font-size:13px;
+	-moz-transition:all .3s ease-in-out;
+	-ms-transition:all .3s ease-in-out;
+	-o-transition:all .3s ease-in-out;
+	-webkit-transition:all .3s ease-in-out;
+	border: 1px solid #C2C6CB;
+	border-radius: 2px 2px 2px 2px;
+	box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.05) inset;
+	color: #55606E;
+	font-size:14px;
+	margin-bottom: 15px;
+	letter-spacing:1px;
+	padding: 9px 10px 8px;
+	transition:all .3s ease-in-out;
+	width:100%;
+}
+
+/* SET A HEIGHT TO THE INPUT*/
+
+#contact form input{
+	height:25px;
+}
+
+/* SET A HEIGHT TO THE TEXTAREA*/
+
+#contact form textarea{
+	min-height:120px;
+	padding-top: 8px;
+}
+	
+/* BUTTON SENDER */
+
+#contact form #submit{
+	color:#FFF;
+	height:40px;
+	width: 150px;
+	border-radius: 2px;
+	letter-spacing:1px;
+	float: left;
+	display: block;
+	border: none;
+	cursor: pointer;
+	font-size: 14px;
+    font-family: 'Segoe UI', Tahoma;
+	color:#FFF;
+	background-color: #ff7c6c;
+	-webkit-transition: all 0.2s ease-in-out;
+	-moz-transition: all 0.2s ease-in-out;
+	-ms-transition: all 0.2s ease-in-out;
+	-o-transition: all 0.2s ease-in-out;
+	transition: all 0.2s ease-in-out;
+}
+
+/* BUTTON SENDER HOVER */
+
+#contact form #submit:hover{
+	background:#ff9385 ;
+	cursor:pointer;
+}
+
+#contact #info {
+    margin: 25px 50px 0 0;
+    line-height: 30px;
+    float:right;
+}
+
+#contact #formWrap {
+    width: 850px;
+    margin: 0 auto;
+}
+
+
+/*Copyright*/
+#copyright {
+    height: 80px;
+    width: 100%;
+    background: rgba(42,52,62, 0.9);
+}
